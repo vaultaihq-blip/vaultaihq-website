@@ -1,40 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Suporte - Vault AI HQ</title>
-<style>
-body{font-family:Arial,sans-serif;background:#0b0d12;color:#f5f5f5;line-height:1.7;margin:0;padding:0}
-.container{max-width:900px;margin:auto;padding:40px 20px}
-.card{background:#12151d;border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:30px}
-h1,h2{color:#d5b168}
-a{color:#d5b168}
-footer{margin-top:40px;color:#9ca3af;font-size:14px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suporte — Vault AI HQ</title>
+  <meta name="description" content="Suporte da Vault AI HQ." />
+  <link rel="stylesheet" href="site.css" />
 </head>
 <body>
-<div class="container">
-<div class="card">
-<h1>Suporte</h1>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="index.html">
+          <img src="logo.png" alt="Vault AI HQ" />
+          <span>VAULT AI HQ</span>
+        </a>
+        <div class="navlinks">
+          <a href="index.html#apps">Apps</a>
+          <a href="index.html#about">Sobre</a>
+          <a href="index.html#contact" class="btn">Ver Pick & Pay</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<p>Bem-vindo ao suporte da Vault AI HQ.</p>
+  <main class="page">
+    <div class="wrap">
+      <article class="pageCard">
+        <h1>Suporte</h1>
 
-<p>Se precisar de ajuda com qualquer uma das nossas aplicações, incluindo a Pick & Pay, contacte-nos através das informações abaixo.</p>
+        <p>Bem-vindo ao suporte da Vault AI HQ.</p>
 
-<h2>Email de contacto</h2>
-<p><a href="mailto:vault.ai.hq@gmail.com">vault.ai.hq@gmail.com</a></p>
+        <p>Se precisar de ajuda com qualquer uma das nossas aplicações, incluindo a Pick & Pay, contacte-nos através das informações abaixo.</p>
 
-<h2>Tempo de resposta</h2>
-<p>Normalmente respondemos no prazo de 24 a 72 horas.</p>
+        <h2>Email de contacto</h2>
+        <p><a class="mail" href="mailto:vault.ai.hq@gmail.com">vault.ai.hq@gmail.com</a></p>
 
-<h2>Aplicações</h2>
-<ul>
-<li>Pick & Pay</li>
-</ul>
+        <h2>Tempo de resposta</h2>
+        <p>Normalmente respondemos no prazo de 24 a 72 horas.</p>
 
-<footer>© 2026 Vault AI HQ. Todos os direitos reservados.</footer>
-</div>
-</div>
+        <h2>Aplicações</h2>
+        <ul>
+          <li>Pick & Pay</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© <span id="year"></span> Vault AI HQ. Todos os direitos reservados.</div>
+      <div class="footLinks">
+        <a href="privacy-policy.html">Política de Privacidade</a>
+        <a href="support.html">Suporte</a>
+      </div>
+      <div>Apps inteligentes para marketplaces.</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

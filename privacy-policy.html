@@ -1,59 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Política de Privacidade - Vault AI HQ</title>
-<style>
-body{font-family:Arial,sans-serif;background:#0b0d12;color:#f5f5f5;line-height:1.7;margin:0;padding:0}
-.container{max-width:900px;margin:auto;padding:40px 20px}
-.card{background:#12151d;border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:30px}
-h1,h2{color:#d5b168}
-a{color:#d5b168}
-footer{margin-top:40px;color:#9ca3af;font-size:14px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidade — Vault AI HQ</title>
+  <meta name="description" content="Política de Privacidade da Vault AI HQ." />
+  <link rel="stylesheet" href="site.css" />
 </head>
 <body>
-<div class="container">
-<div class="card">
-<h1>Política de Privacidade</h1>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="index.html">
+          <img src="logo.png" alt="Vault AI HQ" />
+          <span>VAULT AI HQ</span>
+        </a>
+        <div class="navlinks">
+          <a href="index.html#apps">Apps</a>
+          <a href="index.html#about">Sobre</a>
+          <a href="index.html#contact" class="btn">Ver Pick & Pay</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-<p>Última atualização: maio de 2026</p>
+  <main class="page">
+    <div class="wrap">
+      <article class="pageCard">
+        <h1>Política de Privacidade</h1>
 
-<p>A Vault AI HQ respeita a sua privacidade. Esta Política de Privacidade explica como recolhemos, utilizamos e protegemos informações quando utiliza as nossas aplicações e serviços.</p>
+        <p>Última atualização: maio de 2026</p>
 
-<h2>Informações que recolhemos</h2>
-<ul>
-<li>Análises básicas de utilização</li>
-<li>Relatórios de falhas e diagnósticos</li>
-<li>Informações fornecidas voluntariamente pelos utilizadores</li>
-</ul>
+        <p>A Vault AI HQ respeita a sua privacidade. Esta Política de Privacidade explica como recolhemos, utilizamos e protegemos informações quando utiliza as nossas aplicações e serviços.</p>
 
-<h2>Como utilizamos as informações</h2>
-<ul>
-<li>Melhorar a funcionalidade e o desempenho das aplicações</li>
-<li>Prestar suporte</li>
-<li>Manter a segurança e prevenir abusos</li>
-<li>Desenvolver funcionalidades e serviços futuros</li>
-</ul>
+        <h2>Informações que recolhemos</h2>
+        <ul>
+          <li>Análises básicas de utilização</li>
+          <li>Relatórios de falhas e diagnósticos</li>
+          <li>Informações fornecidas voluntariamente pelos utilizadores</li>
+        </ul>
 
-<h2>Serviços de terceiros</h2>
-<p>As nossas aplicações podem utilizar serviços de terceiros, como fornecedores de análises, processadores de pagamentos ou plataformas de infraestrutura em nuvem.</p>
+        <h2>Como utilizamos as informações</h2>
+        <ul>
+          <li>Melhorar a funcionalidade e o desempenho das aplicações</li>
+          <li>Prestar suporte</li>
+          <li>Manter a segurança e prevenir abusos</li>
+          <li>Desenvolver funcionalidades e serviços futuros</li>
+        </ul>
 
-<h2>Segurança dos dados</h2>
-<p>Implementamos medidas razoáveis para proteger as informações dos utilizadores e manter a segurança dos nossos serviços.</p>
+        <h2>Serviços de terceiros</h2>
+        <p>As nossas aplicações podem utilizar serviços de terceiros, como fornecedores de análises, processadores de pagamentos ou plataformas de infraestrutura em nuvem.</p>
 
-<h2>Privacidade de menores</h2>
-<p>Os nossos serviços não se destinam a crianças com menos de 13 anos.</p>
+        <h2>Segurança dos dados</h2>
+        <p>Implementamos medidas razoáveis para proteger as informações dos utilizadores e manter a segurança dos nossos serviços.</p>
 
-<h2>Alterações a esta política</h2>
-<p>Podemos atualizar esta Política de Privacidade periodicamente. As atualizações serão publicadas nesta página.</p>
+        <h2>Privacidade de menores</h2>
+        <p>Os nossos serviços não se destinam a crianças com menos de 13 anos.</p>
 
-<h2>Contacto</h2>
-<p><a href="mailto:vault.ai.hq@gmail.com">vault.ai.hq@gmail.com</a></p>
+        <h2>Alterações a esta política</h2>
+        <p>Podemos atualizar esta Política de Privacidade periodicamente. As atualizações serão publicadas nesta página.</p>
 
-<footer>© 2026 Vault AI HQ. Todos os direitos reservados.</footer>
-</div>
-</div>
+        <h2>Contacto</h2>
+        <p><a class="mail" href="mailto:vault.ai.hq@gmail.com">vault.ai.hq@gmail.com</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© <span id="year"></span> Vault AI HQ. Todos os direitos reservados.</div>
+      <div class="footLinks">
+        <a href="privacy-policy.html">Política de Privacidade</a>
+        <a href="support.html">Suporte</a>
+      </div>
+      <div>Apps inteligentes para marketplaces.</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
